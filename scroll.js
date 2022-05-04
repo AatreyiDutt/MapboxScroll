@@ -1,7 +1,7 @@
-mapboxgl.accessToken = 'pk.eyJ1Ijoiam9vc3RidXJnZXJzIiwiYSI6ImNqZmZjaGtzaDRrMncycXBrazdzNzFzZXUifQ.7MZmVPD9cq_QtgpzkcZPyA';
+mapboxgl.accessToken = 'pk.eyJ1IjoiYWF0cmV5aWR1dHQiLCJhIjoiY2wyNG52cmcxMjF5NzNjcDZob3VkYXpjbiJ9.T5P5CysazB1XMUPjKX9Kiw';
 const map = new mapboxgl.Map({
 container: 'map',
-style: 'mapbox://styles/joostburgers/cl1w8a046000q14rrrewcwdem',
+style: 'mapbox://styles/aatreyidutt/cl2rdcs7f003i14mfihnmswkd',
 center: [77.0688997, 28.5272803],
 zoom: 3,
 bearing: 0,
