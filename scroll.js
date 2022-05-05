@@ -17,29 +17,29 @@ pitch: 0
 },
 'part_2': {
 duration: 7000,
-center: [74.3141829, 31.5656822],
-bearing: 0,
-zoom: 10,
+center: [70.3141829, 30.5656822],
+bearing: 315,
+zoom: 8,
 pitch: 0
 },
 'part_3': {
-bearing: 45,
-center: [74.3383, 31.5767],
-zoom: 13,
+bearing: 0,
+center: [80.3383, 23.5767],
+zoom: 4,
 speed: 1,
 pitch: 50
 },
 'part_4': {
 bearing: 45,
-center: [74.8736788, 31.6343083],
-zoom: 14,
+center: [90.0736788, 24.0343083],
+zoom: 0,
 pitch: 65,
 speed: .5
 },
 'part_5': {
-bearing: 180,
-center: [77.1835, 28.6239],
-zoom: 11,
+bearing: 45,
+center: [74.1835, 31.6239],
+zoom: 5,
 pitch: 10,
 speed: 1,
 curve:1
