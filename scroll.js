@@ -20,18 +20,21 @@ duration: 7000,
 center: [70.5141829, 30.7656822],
 bearing: 315,
 zoom: 4.5,
+speed: 0.7,
 pitch: 0
 },
 'part_3': {
 bearing: 0,
 center: [81.2383, 24.0767],
 zoom: 3.8,
+speed: 0.7,
 pitch: 0
 },
 'part_4': {
 bearing: 45,
 center: [90.5736788, 23.6343083],
 zoom: 6,
+speed: 0.7,
 pitch: 0,
 },
 'part_5': {
@@ -39,7 +42,7 @@ bearing: 45,
 center: [74.1835, 31.6239],
 zoom: 5,
 pitch: 10,
-speed: 1,
+speed: 0.7,
 curve:1,
 pitch: 45
 },
@@ -47,7 +50,7 @@ pitch: 45
 bearing: 25,
 center: [80.9688997, 27.0272803],
 zoom: 6,
-speed: 1
+speed: 0.7
 }
 };
 
