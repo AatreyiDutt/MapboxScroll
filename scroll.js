@@ -17,21 +17,20 @@ pitch: 0
 },
 'part_2': {
 duration: 7000,
-center: [70.3141829, 30.5656822],
+center: [70.5141829, 30.7656822],
 bearing: 315,
 zoom: 4.5,
 pitch: 0
 },
 'part_3': {
 bearing: 0,
-center: [80.3383, 23.5767],
+center: [81.2383, 24.0767],
 zoom: 3.8,
-speed: 0.75,
 pitch: 0
 },
 'part_4': {
 bearing: 45,
-center: [90.0736788, 24.0343083],
+center: [90.5736788, 23.6343083],
 zoom: 6,
 pitch: 0,
 },
