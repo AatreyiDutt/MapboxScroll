@@ -21,10 +21,10 @@ document.getElementById('legend').style.display = 'none';
 document.getElementById('console').style.display = 'none';
 document.getElementById('infobox').style.display = 'none';
 
-  //to reduce clutter, the steps for creating a legend, slider, and menu have all been turned into functions.
   createLegend()
-  createSlider()
-  createMenu()
+  //to reduce clutter, the steps for creating a legend, slider, and menu have all been turned into functions.
+  //createSlider()
+  //createMenu()
 
 });
 
