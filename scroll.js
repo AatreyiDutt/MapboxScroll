@@ -11,7 +11,7 @@ pitch: 0
 const chapters = {
 'part_1': {
 bearing:0,
-center: [77.0688997, 28.5272803],
+center: [78.0688997, 23.5272803],
 zoom: 3,
 pitch: 0
 },
@@ -19,7 +19,7 @@ pitch: 0
 duration: 7000,
 center: [70.3141829, 30.5656822],
 bearing: 315,
-zoom: 8,
+zoom: 5,
 pitch: 0
 },
 'part_3': {
@@ -27,14 +27,13 @@ bearing: 0,
 center: [80.3383, 23.5767],
 zoom: 4,
 speed: 1,
-pitch: 50
+pitch: 0
 },
 'part_4': {
 bearing: 45,
 center: [90.0736788, 24.0343083],
-zoom: 0,
-pitch: 65,
-speed: .5
+zoom: 10,
+pitch: 0,
 },
 'part_5': {
 bearing: 45,
@@ -42,7 +41,8 @@ center: [74.1835, 31.6239],
 zoom: 5,
 pitch: 10,
 speed: 1,
-curve:1
+curve:1,
+pitch: 30
 },
 'part_6': {
 bearing: 25,
