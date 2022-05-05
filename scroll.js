@@ -24,7 +24,7 @@ document.getElementById('infobox').style.display = 'none';
   createLegend()
   //to reduce clutter, the steps for creating a legend, slider, and menu have all been turned into functions.
   //createSlider()
-  //createMenu()
+  createMenu()
 
 });
 
@@ -32,7 +32,7 @@ function createMenu(){
 
     // MENU For selecting layers
     // Read in all the layers you want to toggle
-    var toggleableLayerIds = ['religion-by-location', 'author-location-text-title', 'temporality-count'];
+    var toggleableLayerIds = ['bang pak', 'india', 'choropleth-2'];
 
     //These are the names for the layers that will appear on the menu
     var layerNames = ['Legend: Religion by Location', 'Infobox: Text Titles', 'Slider: Temporality']
