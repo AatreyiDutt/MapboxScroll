@@ -12,27 +12,27 @@ const chapters = {
 'part_1': {
 bearing:0,
 center: [78.0688997, 23.5272803],
-zoom: 3,
+zoom: 3.5,
 pitch: 0
 },
 'part_2': {
 duration: 7000,
 center: [70.3141829, 30.5656822],
 bearing: 315,
-zoom: 5,
+zoom: 4.5,
 pitch: 0
 },
 'part_3': {
 bearing: 0,
 center: [80.3383, 23.5767],
-zoom: 4,
-speed: 1,
+zoom: 3.8,
+speed: 0.75,
 pitch: 0
 },
 'part_4': {
 bearing: 45,
 center: [90.0736788, 24.0343083],
-zoom: 10,
+zoom: 6,
 pitch: 0,
 },
 'part_5': {
@@ -42,12 +42,13 @@ zoom: 5,
 pitch: 10,
 speed: 1,
 curve:1,
-pitch: 30
+pitch: 45
 },
 'part_6': {
 bearing: 25,
 center: [80.9688997, 27.0272803],
-zoom: 6
+zoom: 6,
+speed: 1
 }
 };
 
