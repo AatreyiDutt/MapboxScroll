@@ -12,9 +12,9 @@ pitch: 0
 map.on('load', () => {
   //Hide all presentation layers
   //This demo uses three specific layers. I want to hide them initially so I can reveal them piece meal.
-  map.setLayoutProperty('bang pak', 'visibility', 'none');
-  map.setLayoutProperty('choropleth-2', 'visibility', 'none');
-  map.setLayoutProperty('india', 'visibility', 'none');
+  map.setLayoutProperty('bang pak.geojson', 'visibility', 'none');
+  map.setLayoutProperty('choropleth-2.geojson', 'visibility', 'none');
+  map.setLayoutProperty('india.geojson', 'visibility', 'none');
 
 //Hide the legend, slider, and infobox on first load. Obviously delete these lines if you want them visible from the start.
 //document.getElementById('legend').style.display = 'none';
@@ -32,7 +32,7 @@ function createMenu(){
 
     // MENU For selecting layers
     // Read in all the layers you want to toggle
-    var toggleableLayerIds = ['bang pak', 'india', 'choropleth-2'];
+    var toggleableLayerIds = ['bang pak.geojson', 'india.geojson', 'choropleth-2.geojson'];
 
     //These are the names for the layers that will appear on the menu
     var layerNames = ['Hindu & Sikh Conflict', 'Muslim Conflict', 'Slider: Temporality']
