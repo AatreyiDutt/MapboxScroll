@@ -2,7 +2,7 @@ mapboxgl.accessToken = 'pk.eyJ1IjoiYWF0cmV5aWR1dHQiLCJhIjoiY2wyNG52cmcxMjF5NzNjc
 const map = new mapboxgl.Map({
 container: 'map',
 style: 'mapbox://styles/aatreyidutt/cl2rdcs7f003i14mfihnmswkd',
-bearing:0,
+bearing: 0,
 center: [78.0688997, 23.5272803],
 zoom: 3.5,
 pitch: 0
@@ -16,7 +16,7 @@ map.on('load', () => {
   map.setLayoutProperty('india', 'visibility', 'visible');
 
 //Hide the legend, slider, and infobox on first load. Obviously delete these lines if you want them visible from the start.
-document.getElementById('legend').style.display = 'none';
+//document.getElementById('legend').style.display = 'none';
 // document.getElementById('console').style.display = 'visible';
 //document.getElementById('infobox').style.display = 'none';
 
@@ -180,24 +180,28 @@ duration: 5000,
 bearing:0,
 center: [78.0688997, 23.5272803],
 zoom: 3.5,
+pitch: 0
 },
 'part_2': {
 duration: 5000,
 center: [70.5141829, 30.7656822],
 bearing: 315,
-zoom: 4.5
+zoom: 4.5,
+pitch: 0
 },
 'part_3': {
 duration: 5000,
 bearing: 0,
 center: [81.2383, 24.0767],
-zoom: 3.8
+zoom: 3.8,
+pitch: 0
 },
 'part_4': {
 duration: 5000,
 bearing: 45,
 center: [90.5736788, 23.6343083],
-zoom: 6
+zoom: 6,
+pitch: 0
 },
 'part_5': {
 duration: 5000,
@@ -211,7 +215,8 @@ curve:1
 duration: 5000,
 bearing: 25,
 center: [80.9688997, 27.0272803],
-zoom: 6
+zoom: 6,
+pitch: 45
 }
 };
 
@@ -237,7 +242,7 @@ return bounds.top < window.innerHeight && bounds.bottom > 0;
 window.onscroll = () => {
 for (const chapterName in chapters) {
 if (isElementOnScreen(chapterName)) {
-  if (chapterName == 'part_1') createLegend();
+  // if (chapterName == 'part_1') createLegend();
   setActiveChapter(chapterName);
 break;
 }
