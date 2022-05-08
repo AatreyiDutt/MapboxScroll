@@ -12,18 +12,18 @@ pitch: 0
 map.on('load', () => {
   //Hide all presentation layers
   //This demo uses three specific layers. I want to hide them initially so I can reveal them piece meal.
-  map.setLayoutProperty('author-location-text-title', 'visibility', 'none');
-  map.setLayoutProperty('temporality-count', 'visibility', 'none');
-  map.setLayoutProperty('religion-by-location', 'visibility', 'none');
+  map.setLayoutProperty('bang pak', 'visibility', 'none');
+  map.setLayoutProperty('choropleth-2', 'visibility', 'none');
+  map.setLayoutProperty('india', 'visibility', 'none');
 
 //Hide the legend, slider, and infobox on first load. Obviously delete these lines if you want them visible from the start.
-document.getElementById('legend').style.display = 'none';
-document.getElementById('console').style.display = 'none';
-document.getElementById('infobox').style.display = 'none';
+//document.getElementById('legend').style.display = 'none';
+//document.getElementById('console').style.display = 'none';
+//document.getElementById('infobox').style.display = 'none';
 
   createLegend()
   //to reduce clutter, the steps for creating a legend, slider, and menu have all been turned into functions.
-  //createSlider()
+  createSlider()
   createMenu()
 
 });
@@ -35,7 +35,7 @@ function createMenu(){
     var toggleableLayerIds = ['bang pak', 'india', 'choropleth-2'];
 
     //These are the names for the layers that will appear on the menu
-    var layerNames = ['Legend: Religion by Location', 'Infobox: Text Titles', 'Slider: Temporality']
+    var layerNames = ['Hindu & Sikh Conflict', 'Muslim Conflict', 'Slider: Temporality']
 
     //Loop that generates a menu item for each layer in the above array.
     for (var i = 0; i < toggleableLayerIds.length; i++) {
